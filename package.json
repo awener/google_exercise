@@ -1,0 +1,14 @@
+{
+  "name": "google",
+  "version": "1.0.0",
+  "description": "Google exercises solver",
+  "main": "google.js",
+  "scripts": {
+    "test": "node google.js --test"
+  },
+  "author": "jeam",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.69.0"
+  }
+}
