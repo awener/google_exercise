@@ -1,25 +1,3 @@
-/*
-
-First exercise from https://developers.google.com/edu/python/exercises/log-puzzle
-
-1.) Read in log file
-
-2.) Find all fields with 'puzzle' in it
-
-3.) avoid duplicated urls
-
-4.) Sort alphabetically 
-
-5.) Download files
-
-6.) Construct HTML file
-
-7.) Profit
-
-*/
-
-
-
 var fs = require('fs');
 var http = require('request');
 
@@ -29,19 +7,6 @@ var config = {
 	exercise_2: 'place_code.google.com',
 	html_file: 'exercise.html',
 	image_folder: 'img/',
-
-};
-var log_file1 = 'place_code.google.com';
-var log_file2 = ''
-var html_file = 'place_html.html';
-
-
-
-
-
-
-
-
 
 
 var app = function(exercise_2) {
